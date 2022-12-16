@@ -16,7 +16,7 @@ setup(
         "regex>=2022.3.15",
         "setuptools>=58.0.4",
         "transformers>=4.22.0",
-        "pytorch>=1.10.0",
+        "torch",
         "tqdm>=4.63.0",
     ],
     entry_points={}

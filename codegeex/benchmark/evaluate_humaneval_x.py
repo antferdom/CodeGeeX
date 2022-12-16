@@ -107,9 +107,9 @@ def evaluate_functional_correctness(
     if example_test:
         print("Example test...")
 
-    #from datasets import load_dataset
-    
+    #from datasets import load_dataset  
     #problems = load_dataset("THUDM/humaneval-x")
+    
     problems = read_dataset(problem_file,
                             dataset_type="humaneval")
     sample_jsonl = stream_jsonl_all(input_file)
